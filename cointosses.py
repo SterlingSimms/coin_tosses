@@ -1,7 +1,7 @@
 import random
 def coinToss():
     x = 0
-    y = 1
+    y = 0
     print "starting the program..."
     for toss in range(5000):
         toss = random.randint(0, 1)
